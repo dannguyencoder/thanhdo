@@ -22,6 +22,7 @@
                         <th>Email</th>
                         <th>Số điện thoại</th>
                         <th>Thời gian hẹn</th>
+                        <th>Mô tả vụ việc</th>
                     </tr>
                     </thead>
 
@@ -44,6 +45,7 @@ FROM customer_bookings";
                         <td><?php echo $customer_booking['customer_email'] ?></td>
                         <td><?php echo $customer_booking['customer_phone_number'] ?></td>
                         <td><?php echo $customer_booking['customer_time'] ?></td>
+                        <td><?php echo $customer_booking['customer_short_desc'] ?></td>
                     </tr>
 
                     <?php endwhile; ?>
